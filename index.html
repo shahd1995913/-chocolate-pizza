@@ -48,6 +48,7 @@
 
 
  <img id="img2" src="img/print-icon.png" alt="">
+ <p id="printNextToImg">print</p>
 
 
 <main>
@@ -64,6 +65,7 @@
 
 
 <div class="leftF">
+    <form >
     <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
     <label for="vehicle1"> 1 1/2 cups milk</label><br>
     <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
@@ -79,10 +81,10 @@
 
     <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
     <label for="vehicle2"> 2-4 tbsp water</label><br>
-
+</form>
 </div>
 <div class="rightF">
-
+<form >
 
     <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
     <label for="vehicle1"> 1 1/2 cups heavy cream</label><br>
@@ -100,6 +102,7 @@
     <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
     <label for="vehicle2"> 1 cup honey roasted pecans, roughly chopped</label><br>
 
+</form>
 </div>
 
 </div>
@@ -107,17 +110,27 @@
 
 
 
-<div id=button>
-<img src="img/van-pic.png" alt="">
-<h2>Vanessa Stevenson</h2>
-<p>Food enthusiast, photograpgy fan. Add a pinch of raw foodism and that's pretty much who I am</p>
+<div id=userImg>
+    <div id="circle">
+    <img src="img/van-pic.png" alt="">
+</div>
 
+    <div id="userInfoDiv">
+        <div id="nameV"> <p>Vanessa Stevenson</p> </div>
+        <p id="nameP">Food enthusiast, photograpgy fan. Add a pinch of raw foodism and that's pretty much who I am</p>
 <button id ="button1">SHARE RECIPE</button>
+
+    </div>
+           
+
+
 </div>
 
     </main>
 <footer>
-    <img src="img/small-logo.png" alt="">
+    <div class="footerImg">
+            <img src="img/small-logo.png" alt="">
+    </div>
     <p>Delicious &copy; 2013 All Rights Reserved</p>
     <p>Proudly published with Ghost.</p>
 </footer>
